@@ -1,0 +1,6 @@
+/* pages/updown/updown.wxss */
+navigator{
+  position:relative;
+  text-align:center;
+  line-height:40px;
+}

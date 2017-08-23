@@ -1,0 +1,17 @@
+<block wx:for="{{list}}">
+  <navigator url="../single/single?id={{item.id}}" hover-class="navigator-hover">
+      <image src="{{item.url}}" class="pic"></image>
+      <view class="title">
+        <text class="">{{item.title}}</text>
+      </view>
+      <!--左右  -->
+      <view class="flex">
+        <view class="left">
+            <text class="">{{item.publish}}</text>
+        </view>
+        <view class="right">
+            <text class="">{{item.publish_time}}</text>
+        </view>
+      </view>
+  </navigator>
+</block>

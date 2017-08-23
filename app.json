@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/updown/updown",
+    "pages/classification/classification",
+    "pages/single/single",
+    "pages/template/template"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#3399ff",
+    "navigationBarTitleText": "省市区三级联动",
+    "navigationBarTextStyle":"#fff"
+  }
+}
